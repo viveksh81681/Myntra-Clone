@@ -1,0 +1,229 @@
+.mainDiv{
+    padding-top:9%;
+}
+
+.prodctDiv{
+    width:100%;
+    display:grid;
+    grid-template-columns: 19% 90%;
+}
+
+.leftDiv{
+    /* height: 850px; */
+    border-right:0.7px solid #C4C4C4;
+    border-bottom:0.7px solid #C4C4C4;
+    margin-top:-10px;
+}
+.prevBtn, .nextBtn{
+  border: 1px solid gray;
+  padding-top: 10%;
+  text-align: center;
+}
+.cartBtn{
+  /* color: red; */
+  width: 70%;
+  height: 20px;
+  padding-top: 5px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.rightDiv{
+
+    display:grid;
+    grid-template-columns:repeat(4,23%);
+    grid-gap:30px;
+    margin-left:2%;
+    white-space: nowrap;
+    /* border: 1px solid red; */
+}
+
+.mainBox:hover{
+     /* box-shadow: 1px 1px 1px 1px rgba(0.1, 0.1, 0.2, 0.2); */
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.mainBox {
+  position: relative;
+  margin-left: 10px;
+  height: 200px;
+  line-height: 5px;
+  /* border: 2px solid greenyellow; */
+
+  /* z-index: 1; */
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.mainBox:hover .overlay {
+  display: block;
+}
+
+.prodImg{
+  width: 80%;
+  height:60%;
+  left: 0;
+
+}
+
+
+.button {
+  position: absolute;
+  width: 100%;
+  border:none;
+  border:1px solid black;
+  top: 64%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.link {
+  width: 100%;
+  padding: 5% 8%;
+  border: none;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  z-index: 1;
+}
+
+.mainBox:hover .button {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1143px) {
+  .rightDiv{
+    display:grid;
+    grid-template-columns:repeat(3,30%);
+    grid-gap:2%;
+    margin-left:5%;
+  }
+ 
+  
+  /* .button {
+    position: absolute;
+    width: 100%;
+    top:55%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  } */
+}
+
+
+@media screen and (max-width: 700px) {
+  .rightDiv{
+    display:grid;
+    grid-template-columns:repeat(2,45%);
+    grid-gap:4%;
+    margin-left:17%;
+  }
+ 
+  
+  /* .button {
+    position: absolute;
+    width: 100%;
+    top:55%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  } */
+
+  .leftDiv{
+    width: 190px;
+}
+
+}
+
+.filters{
+  margin-top:2%;
+  font-size:2vw;
+  font-weight:700;
+}
+
+.selectBtn{
+  margin-left:10%;
+  width:18%;
+  border: 1px solid #C4C4C4;
+  margin-top:1%;
+}
+
+
+.btnDivpage{
+  margin-left: 20%;
+  display: flex;
+  margin-top: 12px;
+}
+
+.prevBtn{
+  width: 70px;
+  height:40px;
+
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 5px;
+}
+
+.nextBtn{
+  width: 70px;
+  height:40px;
+  border:none;
+  margin-left: 5%;
+  background-color: #FFFFFF;
+  color: black;
+  border: 0.5px solid black;
+   border-radius: 5px;
+}
+
+.pageNum{
+  font-size:30px;
+  text-align:center;
+  margin-top:17px;
+  margin-left:5px;
+}
+
+.checkDiv{
+  margin-left:10%;
+  margin-top:2%;
+  text-align: left;
+}
+
+.checkDiv > input{
+  width: 15px;
+  height:15px;
+}
+
+.checkDiv>label{
+  font-size:15px;
+  margin-left: 2%;
+  font-weight:700;
+}
+
+.checkDiv1{
+   margin-left:10%;
+  margin-top:2%;
+  text-align: left;
+}
+
+.checkDiv1 > input{
+  width: 15px;
+  height:15px;
+}
+
+.checkDiv1>label{
+  font-size:15px;
+  margin-left: 2%;
+  font-weight:500;
+  color: #6e6b6b;
+}
+
+
