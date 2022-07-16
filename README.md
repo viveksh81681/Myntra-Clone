@@ -1,5 +1,5 @@
 # Backend Code Repository
-<a href="https://github.com/Manjunath-BV23/myntra-backend.git">Backend code</a>
+<a href="https://github.com/viveksh81681/Myntra-Clone-Backend.git">Backend code</a>
 
 # Getting Started with Create React App
 
